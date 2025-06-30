@@ -1,77 +1,113 @@
-# Welcome to your GPT Engineer project
+# ♟️ MetaChess
 
-## Project info
+**MetaChess** is a modern, responsive, and interactive chess game built with a futuristic UI and seamless user experience. Play classic chess with a new-age look right in your browser!
 
-**Project**: turn-based-chess-duel 
+🌐 **Live Demo**: [https://meta-chess.vercel.app](https://meta-chess.vercel.app)
 
-**URL**: https://run.gptengineer.app/projects/REPLACE_WITH_PROJECT_ID/improve
+---
 
-**Description**: build me a 2 player chess game. Detailed. where 2 players can play it turn after turn 
+## 🚀 Features
 
-## Who is the owner of this repository?
-By default, GPT Engineer projects are created with public GitHub repositories.
+- ⚔️ Two-player chess gameplay
+- 🧠 Valid move highlighting
+- 🔄 Move undo/redo (if implemented)
+- 📱 Fully responsive on all screen sizes
+- 🌌 Futuristic and sleek UI design
+- ♟ Built using modern web technologies
 
-However, you can easily transfer the repository to your own GitHub account by navigating to your [GPT Engineer project](https://run.gptengineer.app/projects/REPLACE_WITH_PROJECT_ID/improve) and selecting Settings -> GitHub. 
+---
 
-## How can I edit this code?
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use GPT Engineer**
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS / CSS Modules
+- **Deployment**: Vercel
+- **State Management**: React Hooks / Context API (if applicable)
+- **Chess Engine**: [chess.js](https://github.com/jhlywa/chess.js) or any custom logic (mention if used)
 
-Simply visit the GPT Engineer project at [GPT Engineer](https://run.gptengineer.app/projects/REPLACE_WITH_PROJECT_ID/improve) and start prompting.
+---
 
-Changes made via gptengineer.app will be committed automatically to this repo.
+## 📸 Screenshots
 
-**Use your preferred IDE**
+*(Add screenshots or screen recordings here if available)*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in the GPT Engineer UI.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🔧 How to Run Locally
 
-Follow these steps: 
+```bash
+# Clone the repository
+git clone https://github.com/your-username/meta-chess.git
 
-```sh
-git clone https://github.com/GPT-Engineer-App/turn-based-chess-duel.git
-cd turn-based-chess-duel
-npm i
+# Navigate into the directory
+cd meta-chess
 
-# This will run a dev server with auto reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-```
+## 🤝 Contributing
 
-**Edit a file directly in GitHub**
+Contributions, ideas, and feedback are welcome!  
+Feel free to **fork the repository**, make improvements, and submit a **pull request**.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+If you find a bug or have a feature suggestion, open an issue to help improve MetaChess.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🙌 Acknowledgements
 
-## What technologies are used for this project?
+- Inspired by classic chess with a **futuristic twist**.
+- Thanks to open-source libraries like:
+  - [chess.js](https://github.com/jhlywa/chess.js)
+  - [React](https://reactjs.org/)
+  - [Vercel](https://vercel.com/)
+  - [Tailwind CSS](https://tailwindcss.com/)
 
-This project is built with .
+---
 
-- Vite
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📄 License
 
-## How can I deploy this project?
+This project is licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for details.
 
-All GPT Engineer projects can be deployed directly via the GPT Engineer app. 
+---
 
-Simply visit your project at [GPT Engineer](https://run.gptengineer.app/projects/REPLACE_WITH_PROJECT_ID/improve) and click on Share -> Publish.
+## ✨ Author
 
-## I want to use a custom domain - is that possible?
+**Deepanshu Negi**  
+🔗 [LinkedIn](## 🤝 Contributing
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain, then we recommend GitHub Pages.
+Contributions, ideas, and feedback are welcome!  
+Feel free to **fork the repository**, make improvements, and submit a **pull request**.
 
-To use GitHub Pages you will need to follow these steps: 
-- Deploy your project using GitHub Pages - instructions [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site)
-- Configure a custom domain for your GitHub Pages site - instructions [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
+If you find a bug or have a feature suggestion, open an issue to help improve MetaChess.
+
+---
+
+## 🙌 Acknowledgements
+
+- Inspired by classic chess with a **futuristic twist**.
+- Thanks to open-source libraries like:
+  - [chess.js](https://github.com/jhlywa/chess.js)
+  - [React](https://reactjs.org/)
+  - [Vercel](https://vercel.com/)
+  - [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## ✨ Author
+
+**Deepanshu Negi**  
+🔗 [LinkedIn](https://www.linkedin.com/in/deepanshu-negi)  
+📫 Feel free to connect and share feedback or suggestions!
+)  
+📫 Feel free to connect and share feedback or suggestions!
