@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import ChessPiece from './ChessPiece';
 import { isValidMove } from '../utils/chessRules';
@@ -13,12 +14,19 @@ const initialBoard = [
   ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'],
 ];
 
-const ChessBoard = ({ currentPlayer, onTurnChange, setGameStatus }) => {
+const ChessBoard = ({ currentPlayer, onTurnChange, setGameStatus, onPieceCapture }) => {
   const [board, setBoard] = useState(initialBoard);
   const [selectedPiece, setSelectedPiece] = useState(null);
 
   const movePiece = (startPos, endPos) => {
     const newBoard = board.map(row => [...row]);
+    const capturedPiece = newBoard[endPos.y][endPos.x];
+    
+    // If there's a piece being captured, notify parent
+    if (capturedPiece) {
+      onPieceCapture(capturedPiece);
+    }
+    
     newBoard[endPos.y][endPos.x] = newBoard[startPos.y][startPos.x];
     newBoard[startPos.y][startPos.x] = null;
     setBoard(newBoard);
